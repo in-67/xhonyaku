@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { font-family: sans-serif; width: 260px; padding: 16px; font-size: 14px; }
+    h2 { margin: 0 0 12px; font-size: 16px; }
+    label { display: block; margin-bottom: 4px; font-weight: bold; }
+    input { width: 100%; box-sizing: border-box; padding: 6px; margin-bottom: 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; }
+    button { width: 100%; padding: 8px; background: #1d9bf0; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 14px; }
+    button:hover { background: #1a8cd8; }
+    #status { margin-top: 8px; text-align: center; color: green; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h2>🌐 翻訳設定（Ollama）</h2>
+
+  <label>Ollama URL</label>
+  <input type="text" id="ollamaUrl" placeholder="http://localhost:11434">
+
+  <label>モデル名</label>
+  <input type="text" id="ollamaModel" placeholder="lfm2.5-thinking:latest">
+
+  <button id="save">保存</button>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
