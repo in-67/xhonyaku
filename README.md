@@ -35,9 +35,7 @@ aiの学習を進めているとXの投稿で「翻訳を表示」を1日100回�
 動作しない場合は、以下の手順で環境変数を設定し、Ollama を再起動してください。
 
 ### Windows
-環境変数に追加
-OLLAMA_ORIGINS
-chrome-extension://*
+環境変数に追加、変数名：OLLAMA_ORIGINS、変数値：chrome-extension://*
 <img src="env.png"><br>
 
 ### Windows (PowerShell)
