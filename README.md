@@ -30,6 +30,9 @@ aiの学習を進めているとXの投稿で「翻訳を表示」を1日100回�
 ブラウザのセキュリティ制限（CORS）により、
 動作しない場合は、以下の手順で環境変数を設定し、Ollama を再起動してください。
 
+### Windows
+<img src="env.png"><br>
+
 ### Windows (PowerShell)
 ```powershell
 $env:OLLAMA_ORIGINS="chrome-extension://*"
