@@ -8,7 +8,11 @@ aiの学習を進めているとXの投稿で「翻訳を表示」を1日100回�
 ◇ 前提
 * Win11
 * Ollama(llm:lfm2.5-thinking:latest)
+  ollama インストール
+  ollama run lfm2.5-thinking:latest
 * chrome
+
+---
 
 ## 🚀 インストール方法
 
